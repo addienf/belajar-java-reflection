@@ -31,6 +31,6 @@ public class ParameterTest {
         Person person = new Person("Fauzan", "Addien");
         setFirstName.invoke(person, "Joko");
 
-        System.out.println(person.getFistName());
+        System.out.println(person.getFirstName());
     }
 }

@@ -63,6 +63,6 @@ public class ClassTest {
         firstName.setAccessible(true);
 
         firstName.set(person, "Joko");
-        System.out.println(person.getFistName());
+        System.out.println(person.getFirstName());
     }
 }
